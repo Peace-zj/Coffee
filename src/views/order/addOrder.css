@@ -1,0 +1,22 @@
+.steps-content {
+    margin-top: 30px;
+    text-align: center;
+  }
+ .hidden{
+   display: none;
+ } 
+  .steps-action {
+    margin-top: 24px;
+  }
+  .ant-steps-item-finish .ant-steps-item-icon {
+    background-color: #fff;
+    border-color: rgba(247, 214, 30, 0.979);
+}
+  .ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-icon {
+    background: #000;
+    color:#fff;
+    border-color: rgba(247, 214, 30, 0.979);
+}
+.ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title::after {
+  background-color: rgba(247, 214, 30, 0.979);
+}

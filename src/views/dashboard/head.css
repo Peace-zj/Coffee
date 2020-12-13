@@ -1,0 +1,20 @@
+.ant-layout-header,.ant-menu-item,.ant-menu-submenu-title,.site-layout-background{
+    background:#000;
+    margin:0;
+}
+.ant-layout-header{
+    border-bottom:2px solid rgba(247, 214, 30, 0.979);
+    border-top:1px solid rgba(247, 214, 30, 0.979)
+}
+.ant-layout-header li{
+    background:#000;
+    margin:0
+}
+.anticon-menu-fold{
+    background:rgba(247, 214, 30, 0.979)
+}
+.little{
+    float:left;
+    margin-top:15px;
+    border:1px solid rgba(247, 214, 30, 0.979)
+}

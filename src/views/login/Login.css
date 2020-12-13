@@ -1,0 +1,47 @@
+.CH{
+    position:fixed;
+    left:50%;
+    top:15%;
+    text-align:center;
+    width:500px;
+    margin-left:-250px;
+    font-size:60px;
+    color:rgba(247, 214, 30, 0.979);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.loginForm{
+    position:fixed;
+    left:50%;
+    top:35%;
+    width: 260px;
+    height: 260px;
+    margin-left: -130px;
+    padding:40px;
+    background:#000;
+    padding:50px;
+    border:1px solid rgba(247, 214, 30, 0.979);
+}
+.ant-btn-primary{
+    background: rgb(0,0,0);
+    border-color: rgba(66, 64, 64, 0.6);
+}
+.login-form-button {
+    border:none;
+    width: 160px;
+    height:32px;
+    color:#fff;
+    background:#000;
+    border:1px solid rgba(247, 214, 30, 0.979);
+  }
+  .login-form-button:hover{
+    background: rgba(46, 46, 46, 0.8);
+    border:1px solid rgba(247, 214, 30, 0.979);
+  }
+  .login-form-button:focus{
+    background: rgba(0,0,0, 0.8);
+    border:1px solid rgba(247, 214, 30, 0.979);
+  }
+
+  #tsparticles{
+      height:100%
+  }

@@ -1,0 +1,17 @@
+#sideMenu{
+    background:#000
+}
+.ant-menu{
+    background:#000 
+}
+.ant-menu-item:hover{
+    background: rgba(0,0,0, 0.8);
+    border:1px solid rgba(226, 204, 80, 0.979);
+
+  }
+  /* .ant-menu-item,.ant-menu-submenu-title,.site-layout-background */
+  #active{
+    background: rgba(0,0,0, 0.8);
+    color:rgba(247, 214, 30, 0.979);
+    border:1px solid rgba(247, 214, 30, 0.979);
+  }

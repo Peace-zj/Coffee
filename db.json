@@ -1,53 +1,599 @@
 {
-    "vipCustomer":[
+  "users": [
+    {
+      "id": 1,
+      "username": "boss",
+      "password": "123456",
+      "roleName": "Boss",
+      "roleType": 1
+    },
+    {
+      "id": 2,
+      "username": "manager",
+      "password": "123",
+      "roleName": "Manager",
+      "roleType": 2
+    },
+    {
+      "id": 3,
+      "username": "employee",
+      "password": "456",
+      "roleName": "Employee",
+      "roleType": 3
+    }
+  ],
+  "vipCustomer": [
+    {
+      "id": 1,
+      "name": "小明",
+      "sex": "男",
+      "account": "3203",
+      "level": 3,
+      "tel": "15173862371"
+    },
+    {
+      "id": 2,
+      "name": "小王",
+      "sex": "男",
+      "account": 310,
+      "level": 2,
+      "tel": "15126862378"
+    },
+    {
+      "id": 3,
+      "name": "小李",
+      "sex": "女",
+      "account": 3200,
+      "level": 1,
+      "tel": "15173862124"
+    },
+    {
+      "id": 4,
+      "name": "小赵",
+      "sex": "女",
+      "account": 420,
+      "level": 3,
+      "tel": "15103862378"
+    },
+    {
+      "id": 5,
+      "name": "小白",
+      "sex": "男",
+      "account": 870,
+      "level": 2,
+      "tel": "15159862378"
+    },
+    {
+      "name": "小何",
+      "sex": "男",
+      "account": "333",
+      "level": 3,
+      "tel": "1513408765",
+      "id": 11
+    }
+  ],
+  "Menu": [
+    {
+      "coffee": [
         {
-            "id": 1,
-            "name": "小明",
-            "sex": "男",
-            "account": 320,
-            "tel": 15173862378 
+          "id": 1,
+          "name": "卡布奇诺",
+          "img": "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2433610185,4180665229&fm=26&gp=0.jpg",
+          "hot": 35,
+          "ice": 40,
+          "Italy": "/",
+          "Belgium": "/",
+          "state": true,
+          "stateType": "在售",
+          "num": 123
         },
         {
-            "id": 1,
-            "name": "小明",
-            "sex": "男",
-            "account": 320,
-            "tel": 15173862378 
+          "id": 2,
+          "name": "蓝山咖啡",
+          "img": "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2433610185,4180665229&fm=26&gp=0.jpg",
+          "hot": 40,
+          "ice": 45,
+          "Italy": 88,
+          "Belgium": 168,
+          "state": false,
+          "stateType": "售罄",
+          "num": 116
         },
         {
-            "id": 1,
-            "name": "小明",
-            "sex": "男",
-            "account": 320,
-            "tel": 15173862378 
+          "id": 3,
+          "name": "拿铁咖啡",
+          "img": "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2433610185,4180665229&fm=26&gp=0.jpg",
+          "hot": 30,
+          "ice": 35,
+          "Italy": "/",
+          "Belgium": "/",
+          "state": true,
+          "stateType": "在售",
+          "num": 181
         },
         {
-            "id": 1,
-            "name": "小明",
-            "sex": "男",
-            "account": 320,
-            "tel": 15173862378 
+          "id": 4,
+          "name": "摩卡咖啡",
+          "img": "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2433610185,4180665229&fm=26&gp=0.jpg",
+          "hot": 30,
+          "ice": 35,
+          "Italy": 66,
+          "Belgium": 128,
+          "state": true,
+          "stateType": "在售",
+          "num": 231
         },
         {
-            "id": 1,
-            "name": "小明",
-            "sex": "男",
-            "account": 320,
-            "tel": 15173862378 
+          "id": 5,
+          "name": "曼特宁咖啡",
+          "img": "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2433610185,4180665229&fm=26&gp=0.jpg",
+          "hot": 35,
+          "ice": 40,
+          "Italy": 78,
+          "Belgium": 138,
+          "state": false,
+          "stateType": "售罄",
+          "num": 201
         },
         {
-            "id": 1,
-            "name": "小明",
-            "sex": "男",
-            "account": 320,
-            "tel": 15173862378 
+          "id": 6,
+          "name": "意式咖啡",
+          "img": "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2433610185,4180665229&fm=26&gp=0.jpg",
+          "hot": 35,
+          "ice": "/",
+          "Italy": "/",
+          "Belgium": "/",
+          "state": true,
+          "stateType": "在售",
+          "num": 59
         },
         {
-            "id": 1,
-            "name": "小明",
-            "sex": "男",
-            "account": 320,
-            "tel": 15173862378 
+          "id": 7,
+          "name": "冰摩卡",
+          "img": "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2433610185,4180665229&fm=26&gp=0.jpg",
+          "hot": "/",
+          "ice": 35,
+          "Italy": "/",
+          "Belgium": "/",
+          "state": true,
+          "stateType": "在售",
+          "num": 158
+        }
+      ]
+    },
+    {
+      "milkyTea": [
+        {
+          "id": 1,
+          "name": "原味奶茶",
+          "img": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3351953377,608538439&fm=26&gp=0.jpg",
+          "hot": 28,
+          "ice": 28,
+          "pot": 35,
+          "state": true,
+          "stateType": "在售",
+          "num": 78
         },
-    ]
+        {
+          "id": 2,
+          "name": "红豆奶茶",
+          "img": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3351953377,608538439&fm=26&gp=0.jpg",
+          "hot": 28,
+          "ice": 28,
+          "pot": 38,
+          "state": true,
+          "stateType": "在售",
+          "num": 154
+        },
+        {
+          "id": 3,
+          "name": "绿豆奶茶",
+          "img": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3351953377,608538439&fm=26&gp=0.jpg",
+          "hot": 28,
+          "ice": 28,
+          "pot": 39,
+          "state": true,
+          "stateType": "在售",
+          "num": 123
+        },
+        {
+          "id": 4,
+          "name": "巧克力奶茶",
+          "img": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3351953377,608538439&fm=26&gp=0.jpg",
+          "hot": 28,
+          "ice": 28,
+          "pot": 35,
+          "state": true,
+          "stateType": "在售",
+          "num": 142
+        },
+        {
+          "id": 5,
+          "name": "抹茶奶茶",
+          "img": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3351953377,608538439&fm=26&gp=0.jpg",
+          "hot": 28,
+          "ice": 28,
+          "pot": 38,
+          "state": true,
+          "stateType": "在售",
+          "num": 162
+        },
+        {
+          "id": 6,
+          "name": "哈密瓜奶茶",
+          "img": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3351953377,608538439&fm=26&gp=0.jpg",
+          "hot": 25,
+          "ice": 25,
+          "pot": 35,
+          "state": false,
+          "stateType": "售罄",
+          "num": 182
+        },
+        {
+          "id": 7,
+          "name": "皇家奶茶",
+          "img": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3351953377,608538439&fm=26&gp=0.jpg",
+          "hot": 28,
+          "ice": 28,
+          "pot": 38,
+          "state": true,
+          "stateType": "在售",
+          "num": 142
+        },
+        {
+          "id": 8,
+          "name": "玫瑰奶茶",
+          "img": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3351953377,608538439&fm=26&gp=0.jpg",
+          "hot": 28,
+          "ice": 28,
+          "pot": 38,
+          "state": true,
+          "stateType": "在售",
+          "num": 157
+        }
+      ]
+    },
+    {
+      "tea": [
+        {
+          "id": 1,
+          "name": "安溪铁观音",
+          "img": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607063285485&di=057a9eba61940f5f9092b6108805dc39&imgtype=0&src=http%3A%2F%2Fimage1.hhczy.com%2Fweb%2F2013%2F4%2F25%2F0237432510475960.700x700.png",
+          "cup": 69,
+          "pot": 169,
+          "state": false,
+          "stateType": "售罄",
+          "num": 199
+        },
+        {
+          "id": 2,
+          "name": "西湖龙井",
+          "img": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607063285485&di=057a9eba61940f5f9092b6108805dc39&imgtype=0&src=http%3A%2F%2Fimage1.hhczy.com%2Fweb%2F2013%2F4%2F25%2F0237432510475960.700x700.png",
+          "cup": 39,
+          "pot": 99,
+          "state": true,
+          "stateType": "在售",
+          "num": 231
+        },
+        {
+          "id": 3,
+          "name": "祁门红茶",
+          "img": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607063285485&di=057a9eba61940f5f9092b6108805dc39&imgtype=0&src=http%3A%2F%2Fimage1.hhczy.com%2Fweb%2F2013%2F4%2F25%2F0237432510475960.700x700.png",
+          "cup": 69,
+          "pot": 169,
+          "state": true,
+          "stateType": "在售",
+          "num": 432
+        },
+        {
+          "id": 4,
+          "name": "洞庭碧螺春",
+          "img": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607063285485&di=057a9eba61940f5f9092b6108805dc39&imgtype=0&src=http%3A%2F%2Fimage1.hhczy.com%2Fweb%2F2013%2F4%2F25%2F0237432510475960.700x700.png",
+          "cup": 39,
+          "pot": 99,
+          "state": true,
+          "stateType": "在售",
+          "num": 245
+        },
+        {
+          "id": 5,
+          "name": "普洱",
+          "img": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607063285485&di=057a9eba61940f5f9092b6108805dc39&imgtype=0&src=http%3A%2F%2Fimage1.hhczy.com%2Fweb%2F2013%2F4%2F25%2F0237432510475960.700x700.png",
+          "cup": 49,
+          "pot": 129,
+          "state": true,
+          "stateType": "在售",
+          "num": 166
+        },
+        {
+          "id": 6,
+          "name": "安吉白茶",
+          "img": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607063285485&di=057a9eba61940f5f9092b6108805dc39&imgtype=0&src=http%3A%2F%2Fimage1.hhczy.com%2Fweb%2F2013%2F4%2F25%2F0237432510475960.700x700.png",
+          "cup": 39,
+          "pot": 99,
+          "state": true,
+          "stateType": "在售",
+          "num": 156
+        },
+        {
+          "id": 7,
+          "name": "六安瓜片",
+          "img": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607063285485&di=057a9eba61940f5f9092b6108805dc39&imgtype=0&src=http%3A%2F%2Fimage1.hhczy.com%2Fweb%2F2013%2F4%2F25%2F0237432510475960.700x700.png",
+          "cup": 69,
+          "pot": 169,
+          "state": true,
+          "stateType": "在售",
+          "num": 124
+        }
+      ]
+    }
+  ],
+  "table": [
+    {
+      "id": 1,
+      "number": "1号餐桌",
+      "state": false,
+      "stateType": "occupied"
+    },
+    {
+      "number": "2号餐桌",
+      "state": true,
+      "stateType": "empty",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "number": "3号餐桌",
+      "state": false,
+      "stateType": "occupied"
+    },
+    {
+      "number": "4号餐桌",
+      "state": true,
+      "stateType": "empty",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "number": "5号餐桌",
+      "state": false,
+      "stateType": "occupied"
+    },
+    {
+      "number": "6号餐桌",
+      "state": true,
+      "stateType": "empty",
+      "id": 6
+    },
+    {
+      "id": 7,
+      "number": "7号餐桌",
+      "state": false,
+      "stateType": "occupied"
+    },
+    {
+      "number": "8号餐桌",
+      "state": true,
+      "stateType": "empty",
+      "id": 8
+    },
+    {
+      "number": "9号餐桌",
+      "state": true,
+      "stateType": "empty",
+      "id": 9
+    },
+    {
+      "number": "10号餐桌",
+      "state": true,
+      "stateType": "empty",
+      "id": 10
+    },
+    {
+      "number": "11号餐桌",
+      "state": true,
+      "stateType": "empty",
+      "id": 11
+    },
+    {
+      "number": "12号餐桌",
+      "state": true,
+      "stateType": "empty",
+      "id": 12
+    },
+    {
+      "id": 13,
+      "number": "13号餐桌",
+      "state": false,
+      "stateType": "occupied"
+    },
+    {
+      "id": 14,
+      "number": "14号餐桌",
+      "state": false,
+      "stateType": "occupied"
+    },
+    {
+      "number": "15号餐桌",
+      "state": true,
+      "stateType": "empty",
+      "id": 15
+    },
+    {
+      "number": "16号餐桌",
+      "state": true,
+      "stateType": "empty",
+      "id": 16
+    },
+    {
+      "number": "17号餐桌",
+      "state": false,
+      "stateType": "order",
+      "id": 17
+    },
+    {
+      "id": 18,
+      "number": "18号餐桌",
+      "state": false,
+      "stateType": "occupied"
+    },
+    {
+      "id": 19,
+      "number": "19号餐桌",
+      "state": false,
+      "stateType": "occupied"
+    },
+    {
+      "id": 20,
+      "number": "20号餐桌",
+      "state": false,
+      "stateType": "occupied"
+    }
+  ],
+  "employee": [
+    {
+      "id": 1,
+      "name": "周一",
+      "sex": "女",
+      "edu": "本科",
+      "age": 21,
+      "salary": 2100,
+      "tel": "13156789732",
+      "email": "31263824@qq.com",
+      "address": "辽宁省大连市",
+      "hobby": "看动漫",
+      "skill": "性格外向，做事严谨认真"
+    },
+    {
+      "id": 2,
+      "name": "钱二",
+      "sex": "男",
+      "edu": "本科",
+      "age": 23,
+      "salary": 2000,
+      "tel": "13132789732",
+      "email": "31263824@qq.com",
+      "address": "辽宁省大连市",
+      "hobby": "看电影",
+      "skill": "能够熟练使用办公软件，性格开朗，擅长与人交际"
+    },
+    {
+      "id": 3,
+      "name": "张三",
+      "sex": "男",
+      "edu": "本科",
+      "age": 22,
+      "salary": 2000,
+      "tel": "13159089732",
+      "email": "31263824@qq.com",
+      "address": "辽宁省大连市",
+      "hobby": "滑雪",
+      "skill": "能够熟练使用办公软件，喜欢与人沟通"
+    },
+    {
+      "id": 4,
+      "name": "李四",
+      "sex": "男",
+      "edu": "本科",
+      "age": 21,
+      "salary": 1900,
+      "tel": "13156089732",
+      "email": "31263824@qq.com",
+      "address": "辽宁省大连市",
+      "hobby": "看书",
+      "skill": "能够熟练使用Office，擅长组织各种活动"
+    },
+    {
+      "id": 5,
+      "name": "郑五",
+      "sex": "男",
+      "edu": "本科",
+      "age": 22,
+      "salary": 2130,
+      "tel": "13156787632",
+      "email": "31263824@qq.com",
+      "address": "辽宁省大连市",
+      "hobby": "看书",
+      "skill": "能够熟练使用Office，擅长组织各种活动"
+    },
+    {
+      "id": 6,
+      "name": "吴六",
+      "sex": "男",
+      "edu": "本科",
+      "age": 21,
+      "salary": 2300,
+      "tel": "13156787732",
+      "email": "31263824@qq.com",
+      "address": "辽宁省大连市",
+      "hobby": "看书",
+      "skill": "能够熟练使用Office，擅长组织各种活动"
+    }
+  ],
+  "attendance": [
+    {
+      "id": 1,
+      "name": "周一",
+      "sex": "女",
+      "absent": 1,
+      "absenceLeave": 0,
+      "sickLeave": 1,
+      "late": 0
+    },
+    {
+      "id": 2,
+      "name": "钱二",
+      "sex": "男",
+      "absent": 0,
+      "absenceLeave": 2,
+      "sickLeave": 0,
+      "late": 0
+    },
+    {
+      "id": 3,
+      "name": "张三",
+      "sex": "男",
+      "absent": 0,
+      "absenceLeave": 0,
+      "sickLeave": 0,
+      "late": 0
+    },
+    {
+      "id": 4,
+      "name": "李四",
+      "sex": "男",
+      "absent": 0,
+      "absenceLeave": 0,
+      "sickLeave": 1,
+      "late": 0
+    },
+    {
+      "id": 5,
+      "name": "郑五",
+      "sex": "男",
+      "absent": 0,
+      "absenceLeave": 0,
+      "sickLeave": 0,
+      "late": 0
+    },
+    {
+      "id": 6,
+      "name": "吴六",
+      "sex": "男",
+      "absent": 1,
+      "absenceLeave": 0,
+      "sickLeave": 0,
+      "late": 1
+    }
+  ],
+  "order": [
+    {
+      "tableNumber": "17号餐桌",
+      "time": "20:00",
+      "customerName": "Yui",
+      "customerNum": "4",
+      "tel": "15678670945",
+      "id": 1
+    }
+  ]
 }
